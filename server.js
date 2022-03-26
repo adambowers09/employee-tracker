@@ -5,7 +5,7 @@ require("console.table");
 
 const mysqlConnect = mysql.createConnection({
   host: "localhost",
-  port: process.env.PORT || 3306,
+  port: process.env.PORT || 3305,
   user: "root",
   dialect: "mysql",
   password: "password",
